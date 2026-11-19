@@ -1,0 +1,204 @@
+ body {
+    margin: 0%;
+    background-color: #699684;
+    color: #084138;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ h1 
+ h2 
+ h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ }
+
+ /*HEADER*/
+ 
+ header { 
+background-color: rgb(8, 64, 56);
+color: white;
+align-items: center;
+display: flex;
+justify-content: space-between;
+padding: 10px;
+padding-left: 20px;
+}
+
+/*NAVIGATIONSMENY*/
+
+nav a { 
+    color: white;
+    text-decoration: none;
+}
+
+/*hover-effekt på länkar så de ska bli större*/
+nav a:hover{
+transform: scale(1.10);
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+    padding-right: 30px;
+}
+
+.logo h2 {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+.logo h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium
+}
+
+/* STARTSIDA*/
+
+.hero-image{
+background-image: url(../Images/hero-image.png); 
+background-size: cover;
+background-position: right bottom; 
+height: 80vh;      
+align-items: center;   
+display: flex;
+padding-left: 60px;
+}
+
+.hero-text {
+background-color:rgb(255,255 ,255, 0.85);
+color: rgb(8, 65, 56);
+padding: 20px;
+width: 400px;
+border-radius: 5%;
+}
+
+/*knapp för att gå till galleri-sidan*/
+button {
+    background-color: rgb(8, 65, 56);
+    color: rgb(234, 238, 238);
+    display: inline-block;
+    padding: 10px 40px;
+    font-size: large;
+}
+
+/*FOOTER*/
+
+footer {
+background-color: rgb(8, 65, 56);
+color: white;
+text-align: center;
+padding: 6px;
+margin-top: 80px;
+}
+
+/*GALLERIET*/
+
+.galleri-intro{
+text-align: center;
+padding: 20px;
+}
+
+.galleri-intro h2 {
+    font-size: xx-large;
+}
+
+
+.galleriet {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 40px;
+padding: 40px;
+}
+
+.galleriet img {
+width: 100% ;
+height: auto ;
+object-fit: cover;
+object-position: center bottom;
+border-radius: 5%;
+}
+
+
+.galleriet img:hover {
+transform: scale(1.03);
+}
+
+
+/*Resmål*/
+
+.listor {
+    border-radius: 5%;
+    padding: 30px;
+    color: rgb(105, 150, 132);
+    background-color: rgb(8, 65, 56)
+}
+
+.Mina-resor-text{
+text-align: center;
+padding: 20px;
+}
+
+.Mina-resor-text h2 {
+    font-size: xx-large;
+}
+
+.bucketlist {
+    margin-top: 60px;
+}
+
+.resmål-bild {
+width: 600px;
+height: auto;
+border-radius: 15px;
+display: flex;
+position: left;
+margin: 0px;
+}
+
+.resmål-lista-bild {
+display: flex;
+gap: 60px;
+align-items: flex-start;
+padding: 40px 80px;
+}
+
+/*KONTAKT*/
+.kontakt{
+text-align: center;
+padding: 20px;
+}
+
+.kontaktinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   gap: 30px; 
+}
+
+.kontaktrad_mejl, .kontaktrad_ig {
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.favoritdestination {
+    max-width: 500px;
+    margin: 0% auto;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.favoritdestination h3 {
+    font-size: x-large;
+}
+
+.favoritdestination input {
+    width: auto; 
+    padding: 10px;
+}
+
+.favoritdestination button:hover {
+transform: scale(1.03);
+}
