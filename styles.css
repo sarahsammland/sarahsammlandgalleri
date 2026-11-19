@@ -55,7 +55,7 @@ nav {
 /* STARTSIDA*/
 
 .hero-image{
-background-image: url(../Images/hero-image.png); 
+background-image: url(../hero-image.png); 
 background-size: cover;
 background-position: right bottom; 
 height: 80vh;      
