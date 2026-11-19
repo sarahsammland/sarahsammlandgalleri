@@ -202,3 +202,158 @@ gap: 10px;
 .favoritdestination button:hover {
 transform: scale(1.03);
 }
+
+/* MOBIL */
+@media screen and (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /* HEADER */
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .logo h2 {
+        font-size: 22px;
+    }
+
+    .logo h3 {
+        font-size: 14px;
+    }
+
+    /* NAVIGATION */
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 0;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+
+    /* STARTSIDA */
+    .hero-image {
+        height: 65vh;
+        min-height: 400px;
+        padding: 20px;
+        justify-content: center;
+        background-position: center;
+        box-sizing: border-box;
+    }
+
+    .hero-text {
+        width: 100%;
+        max-width: 350px;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+
+    .hero-text h1 {
+        font-size: 25px;
+    }
+
+    /* KNAPPAR */
+    button {
+        padding: 12px 25px;
+        font-size: 16px;
+    }
+
+    /* GALLERI */
+    .galleri-intro {
+        padding: 15px;
+    }
+
+    .galleri-intro h2 {
+        font-size: 25px;
+    }
+
+    .galleriet {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        padding: 20px;
+    }
+
+    .galleriet img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* RESMÅL */
+    .Mina-resor-text {
+        padding: 15px;
+    }
+
+    .Mina-resor-text h2 {
+        font-size: 25px;
+    }
+
+    .resmål-lista-bild {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding: 20px;
+    }
+
+    .resmål-bild {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+    }
+
+    .listor {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+
+    .bucketlist {
+        margin-top: 30px;
+    }
+
+    /* KONTAKT */
+    .kontakt {
+        padding: 15px;
+    }
+
+    .kontaktinfo {
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .kontaktrad_mejl,
+    .kontaktrad_ig {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    /* FAVORITDESTINATION */
+    .favoritdestination {
+        width: 90%;
+        box-sizing: border-box;
+    }
+
+    .favoritdestination h3 {
+        font-size: 21px;
+    }
+
+    .favoritdestination input {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* FOOTER */
+    footer {
+        margin-top: 40px;
+        padding: 15px;
+        font-size: 14px;
+    }
+
+}
