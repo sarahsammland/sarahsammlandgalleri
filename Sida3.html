@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+    <html lang="sv">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resmål </title>
+         <link rel="icon" type="image/png" href="/Images/favicon.png">
+         <link rel="stylesheet" href="Style/styles.css">
+
+    </head>
+    <body>
+        <!--HEADER & NAVIGATIONSMENY-->
+         <header>
+<div class="logo">
+<h2> SARAH SAMMLAND</h2>
+<h3> FOTOGRAFIER</h3>
+</div>
+
+  <nav>
+    
+     <a href="index.html">Startsida</a>
+        <a href="Sida2.html">Galleri</a>
+        <a href="Sida3.html">Resmål</a>
+        <a href="Sida4.html">Kontakt</a>
+    </nav>
+    </header>
+
+<!--INTROTEXT TILL RESMÅLSIDAN-->
+    <section class="Resmål">
+        <div class="Mina-resor-text">
+<h1> RESMÅL </h1>
+<p>Platser jag har besökt och destinationer jag hade velat besöka! </p>
+</div><section>
+
+    <!--CLASS FÖR ATT VISA LISTOR MED BILDER OCH TEXT-->
+<section class="resmål-lista-bild">
+<img src="Images/balistrand.png" alt="Strand Bali" class="resmål-bild">
+
+<div class="listor">
+
+<div class resor>
+<h3> BESÖKTA DESTINATIONER I GALLERIET</h3>
+
+ <p>🌴 <strong>Bali</strong><br>
+    Stränder och solnedgångar</p>
+
+    <p>🏮 <strong>Vietnam</strong><br>
+    Kultur och fina marknader</p>
+
+    <p>🏙️ <strong>Malaysia</strong><br>
+    Storstad blandat med tropiska miljöer</p>
+
+    <p>🏝️ <strong>Thailand</strong><br>
+    Tempel, öar och snorkling</p>
+
+    <p>🇬🇷 <strong>Kos, Grekland</strong><br>
+Typisk grekisk ö med kristallklart vatten</p>
+
+</div>
+
+<!--LISTA ÖVER PLATSER JAG VILL BESÖKA -->
+<div class="bucketlist">
+<h3>BUCKETLIST</h3>
+
+  <p>🇯🇵 <strong>Japan</strong><br>
+    Kultur och körsbärsblommor</p>
+
+    <p>🇮🇸 <strong>Island</strong><br>
+    Naturen, islandshästar och norrsken</p>
+
+    <p>🇳🇿 <strong>Nya Zeeland</strong><br>
+    Natur och vandring </p>
+
+    <p>🇧🇷 <strong>Brasilien</strong><br>
+    Rio de Janeiro, karnival och kultur </p>
+
+</div>
+</div>
+</section>
+
+<!--JAVASCRIPT, MED ID FÖR ATT DE SKA SAMMANLÄNKAS OCH SKICKA-KNAPP-->
+<div class="favoritdestination">
+<h3>Vilket är ditt drömresemål?🌍</h3>
+
+<input 
+type="text" 
+id="destinationInput"
+placeholder="Skriv in en destination">
+
+<button onclick="visaDestination()">
+Skicka
+</button>
+
+<p id="resultat"></p>
+</div>
+
+<script src="myscript.js"> </script>
+
+
+     <!--footer-->
+<footer>
+<p> © 2026 Sarah Sammland  </p>
+</footer>
+    
+
+    </body>
+    </html>
