@@ -275,7 +275,7 @@ transform: scale(1.03);
         padding: 15px;
     }
 
-    .galleri-intro h2 {
+    .galleri-intro h1 {
         font-size: 25px;
     }
 
@@ -295,7 +295,7 @@ transform: scale(1.03);
         padding: 15px;
     }
 
-    .Mina-resor-text h2 {
+    .Mina-resor-text h1 {
         font-size: 25px;
     }
 
@@ -325,6 +325,10 @@ transform: scale(1.03);
     /* KONTAKT */
     .kontakt {
         padding: 15px;
+    }
+
+     .kontakt h1 {
+        font-size: 25px;
     }
 
     .kontaktinfo {
